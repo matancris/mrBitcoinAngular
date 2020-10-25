@@ -1,0 +1,17 @@
+.homepage {
+    height: 100%;
+    color: #fff;
+}
+
+@media (max-width: 570px) {
+
+    .homepage {
+
+        .hero-container {
+            .hero-txt{
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+    }
+}

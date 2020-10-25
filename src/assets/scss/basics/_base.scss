@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    height: 100vh;
+}
+
+// .app {
+//     height: 100vh;
+// }
+
+body {
+    margin: 0;
+    height: 100%;
+    font-size: 0.875rem;
+    font-family: Bitter-Regular, Tahoma, Geneva, Verdana, sans-serif;
+    color: #727272;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+p{
+    margin: 0;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5{
+    margin: 0;
+}
+
+button {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+

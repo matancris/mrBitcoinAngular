@@ -1,0 +1,36 @@
+.hero-container {
+    background-color: #014e56;
+    padding-top: $header-height;
+    height: 80vh;
+
+    .hero-txt {
+        width: 100%;
+        height: auto;
+        align-self: center;
+        text-align: center;
+
+
+        >* {
+            width: 100%;
+        }
+
+        h1 {
+            font-family: Livvic-Bold;
+            font-size: rem(60px);
+            color: #ffff;
+            margin-bottom: 20px;
+
+            span {
+                color: #f67e7e;
+            }
+        }
+
+        p {
+            color: #ffff;
+            font-family: Livvic-SemiBold;
+            max-width: 65ch;
+            font-size: 1.2rem;
+        }
+
+    }
+}

@@ -1,0 +1,5 @@
+<contact-filter (onFilter)="onFilterHandler($event)"></contact-filter>
+<contact-list [contacts]="contacts" (removeContact)="removeContact($event)"></contact-list>
+<a [routerLink]="['/contact', 'edit']">+</a>
+
+
