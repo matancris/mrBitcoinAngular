@@ -1,9 +1,0 @@
-<a [routerLink]="['/contact', contact._id]">
-  <li class="contact-preview flex align-center space-between" >
-    <div class="preview-content flex align-center">
-      <img class="contact-img" src="https://robohash.org/{{contact._id}}" alt="">
-      <h2>{{contact.name}}</h2>
-    </div>
-    <button (click)="onRemoveContact($event, contact._id)" class="delete-contact"><img src="./assets/icons/delete.png" alt=""></button><!-- path for github -->
-  </li>
-</a>

@@ -1,6 +1,0 @@
-<div class="filter">
-    <ng-content></ng-content>
-    <input (input)="onFilter.emit(filterBy)" type="text" [(ngModel)]="filterBy.name">
-    <button (click)="onFilter.emit(filterBy)">Filter</button>
-    <!-- {{this.props.children}} -->
-</div>
